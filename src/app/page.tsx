@@ -1,101 +1,93 @@
-import Image from "next/image";
+import Image from 'next/image'
+import Link from 'next/link'
+
+import { Twitter, Send, Mail, Instagram } from 'lucide-react'
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+      <header className="bg-blue-600 dark:bg-blue-800 text-white p-6 top-0 z-10">
+        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
+          <div className="flex items-center mb-4 md:mb-0">
+            <div className="w-12 h-12 rounded-full mr-4 flex items-center justify-center">
+              <img src="/mrbeas.png" />
+            </div>
+            <h1 className="text-3xl md:text-4xl font-bold">Mr. Beas</h1>
+          </div>
+          <nav className="text-lg">
+            <Link href="#about" className="mr-6 hover:underline transition-colors duration-300 hover:text-yellow-300">About</Link>
+            <Link href="#benefits" className="mr-6 hover:underline transition-colors duration-300 hover:text-yellow-300">Benefits</Link>
+            <Link href="#community" className="hover:underline transition-colors duration-300 hover:text-yellow-300">Community</Link>
+          </nav>
+        </div>
+      </header>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      <main className="flex-grow container mx-auto px-6 py-12">
+        <section className="mb-16 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">AI Agent and Expert Trading on Telegram</h2>
+          <p className="text-2xl mb-8">Transforming trading with AI-powered analysis and Elías Arraez&apos;s proven strategies.</p>
+          <Link href="#" className="bg-green-500 dark:bg-green-600 text-white text-xl px-8 py-3 rounded-full hover:bg-green-600 dark:hover:bg-green-700 transition-colors duration-300">
+            Launch App
+          </Link>
+        </section>
+
+        <section id="about" className="mb-16">
+          <h3 className="text-3xl font-bold mb-6">About Mr. Beas</h3>
+          <p className="text-xl mb-6">
+            Mr. Beas is an innovative Telegram mini app designed to transform trading. Powered by an AI agent
+            trained with the exclusive methodology of renowned trader Elías Arraez, it provides precise analyses
+            and optimal trade points.
+          </p>
+          <p className="text-xl">
+            Arraez&apos;s impeccable record has made his techniques a trusted standard for traders of all levels.
+          </p>
+        </section>
+
+        <section id="benefits" className="mb-16">
+          <h3 className="text-3xl font-bold mb-6">Key Benefits</h3>
+          <ul className="list-disc list-inside text-xl space-y-4">
+            <li>Capital Protection: Mitigates risks through the use of Arraez trading strategy.</li>
+            <li>AI Agent: Model training powered by an advanced artificial intelligence agent.</li>
+            <li>Seamless Access: Operate directly within Telegram without the need for additional apps.</li>
+            <li>Tokenized Ecosystem: Unlock the mini app&apos;s analyzer with our community-driven $MRB MrBeas utility token.</li>
+          </ul>
+        </section>
+
+ 
+
+        <section id="community" className="mb-16 text-center">
+          <h3 className="text-3xl font-bold mb-6">Community</h3>
+          <div className="flex justify-center space-x-8">
+            <Link href="https://twitter.com/MrBeas_" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 transition-colors duration-300" aria-label="Twitter">
+              <Twitter size={32} />
+            </Link>
+            <Link href="https://t.me/MrBeas_Group" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 transition-colors duration-300" aria-label="Telegram">
+              <Send size={32} />
+            </Link>
+            <a href="mailto:mrbeas.app@gmail.com" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 transition-colors duration-300" aria-label="Email">
+              <Mail size={32} />
+            </a>
+            <Link href="https://www.instagram.com/mrbeas.app" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 transition-colors duration-300" aria-label="Instagram">
+              <Instagram size={32} />
+            </Link>
+          </div>
+        </section>
+
+        <div className="text-center mb-16">
+          <Link href="https://t.me/blum/app?startapp=memepadjetton_MRB_3UKTM-ref_jM0CnzEvER" className="bg-blue-500 dark:bg-blue-600 text-white text-xl px-8 py-3 rounded-full hover:bg-blue-600 dark:hover:bg-blue-700 transition-colors duration-300">
+            Buy $MRB Token on Blum
+          </Link>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      <footer className="bg-gray-200 dark:bg-gray-800 p-6 text-center">
+
+        <p className="text-lg">&copy; 2025 Mr. Beas | Arraez Group - All rights reserved.</p>
+        <div className="mt-4 text-lg">
+          <Link href="https://coinmarketcap.com/dexscan/ton/EQBjrVv26K5HE-mWTeOmV0D0BrcizSwH6kQ4KI12ksaz-UAM/" className="text-blue-600 dark:text-blue-400 hover:underline mr-6 transition-colors duration-300">Coinmarketcap</Link>
+          <Link href="https://www.geckoterminal.com/ton/pools/EQBjrVv26K5HE-mWTeOmV0D0BrcizSwH6kQ4KI12ksaz-UAM?__cf_chl_tk=G7jpsbxe4f75dqWRzSKH1cr0JhOEE2NMeM0dWXIulFU-1736603391-1.0.1.1-gQehNeNOx0hMFZcY6nMDxPb40wsj8ftoCQZ0hkO14Y0" className="text-blue-600 dark:text-blue-400 hover:underline transition-colors duration-300">Coingecko</Link>
+        </div>
       </footer>
     </div>
-  );
+  )
 }
+
