@@ -2,15 +2,15 @@
 
 export default function CommunityLeaders() {
   const leaders = [
-    { name: "Elias Arraez", position: "Master", telegram: "#https://t.me/tradingenvivodelgrupoarraez", photo: "/images/elias.arraez.jpg" },
+    { name: "Elias Arraez", position: "Master", telegram: "https://t.me/tradingenvivodelgrupoarraez", photo: "/images/elias.arraez.jpg" },
     { name: "Arianny Telleria", position: "Member", telegram: "#", photo: "/images/ariatni.telleria.jpg" },
     { name: "Honorio Sarmiento", position: "Member", telegram: "#", photo: "/images/honorio.sarmiento.jpg" },
     { name: "Luis Martinez", position: "Member", telegram: "#", photo: "/images/Luis.Martinez.jpg" },
     { name: "Filip Honore", position: "Member", telegram: "#", photo: "/images/filip.honore.jpg" },
     { name: "Carlos Olmos​​", position: "Member", telegram: "#", photo: "/images/Carlos.Olmos.jpg" },
     { name: "Miguel González", position: "Member", telegram: "#", photo: "/images/Miguel.González.jpg" },
-    { name: "Praexor VS", position: "Member", telegram: "#", photo: "/images/praexor.jpg" },
-    { name: "Cesar Vasquez", position: "Member", telegram: "https://t.me/praexor", photo: "/images/Cesar.Vasquez.jpg" },
+    { name: "Praexor VS", position: "Member", telegram: "https://t.me/praexor", photo: "/images/praexor.jpg" },
+    { name: "Cesar Vasquez", position: "Member", telegram: "#", photo: "/images/Cesar.Vasquez.jpg" },
     { name: "Edilson Hoyos", position: "Member", telegram: "#", photo: "/images/Edilson.Hoyos.jpg" },
     { name: "Randolph Chiari", position: "Member", telegram: "#", photo: "/images/Randolph.Chiari.jpg" },
     { name: "Edison Bazan", position: "Member", telegram: "#", photo: "/images/Edison.Bazan.jpg" },
