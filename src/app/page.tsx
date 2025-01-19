@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-
+import CommunityLeaders from './components/CommunityLeaders'
 import { Twitter, Send, Mail, Instagram } from 'lucide-react'
 
 export default function Home() {
@@ -32,7 +32,7 @@ export default function Home() {
         </section>
 
         <section id="about" className="mb-16">
-          <h3 className="text-3xl font-bold mb-6">About Mr. Beas</h3>
+          <h3 className="text-3xl font-bold mb-6 text-center">About Mr. Beas</h3>
           <p className="text-xl mb-6">
             Mr. Beas is an innovative Telegram mini app designed to transform trading. Powered by an AI agent
             trained with the exclusive methodology of renowned trader Elías Arraez, it provides precise analyses
@@ -44,7 +44,7 @@ export default function Home() {
         </section>
 
         <section id="benefits" className="mb-16">
-          <h3 className="text-3xl font-bold mb-6">Key Benefits</h3>
+          <h3 className="text-3xl font-bold mb-6 text-center">Key Benefits</h3>
           <ul className="list-disc list-inside text-xl space-y-4">
             <li>Capital Protection: Mitigates risks through the use of Arraez trading strategy.</li>
             <li>AI Agent: Model training powered by an advanced artificial intelligence agent.</li>
@@ -53,7 +53,10 @@ export default function Home() {
           </ul>
         </section>
 
- 
+        <section id="community_1" className="mb-16">
+          <h3 className="text-3xl font-bold mb-6 text-center">Arraez Group Leaders</h3>
+          <CommunityLeaders />
+        </section>
 
         <section id="community" className="mb-16 text-center">
           <h3 className="text-3xl font-bold mb-6">Community</h3>
