@@ -2,7 +2,7 @@
 
 export default function CommunityLeaders() {
   const leaders = [
-    { name: "Elias Arraez", position: "Master", telegram: "#", photo: "/images/elias.arraez.jpg" },
+    { name: "Elias Arraez", position: "Master", telegram: "#https://t.me/tradingenvivodelgrupoarraez", photo: "/images/elias.arraez.jpg" },
     { name: "Arianny Telleria", position: "Member", telegram: "#", photo: "/images/ariatni.telleria.jpg" },
     { name: "Honorio Sarmiento", position: "Member", telegram: "#", photo: "/images/honorio.sarmiento.jpg" },
     { name: "Luis Martinez", position: "Member", telegram: "#", photo: "/images/Luis.Martinez.jpg" },
@@ -10,7 +10,7 @@ export default function CommunityLeaders() {
     { name: "Carlos Olmos​​", position: "Member", telegram: "#", photo: "/images/Carlos.Olmos.jpg" },
     { name: "Miguel González", position: "Member", telegram: "#", photo: "/images/Miguel.González.jpg" },
     { name: "Praexor VS", position: "Member", telegram: "#", photo: "/images/praexor.jpg" },
-    { name: "Cesar Vasquez", position: "Member", telegram: "#", photo: "/images/Cesar.Vasquez.jpg" },
+    { name: "Cesar Vasquez", position: "Member", telegram: "https://t.me/praexor", photo: "/images/Cesar.Vasquez.jpg" },
     { name: "Edilson Hoyos", position: "Member", telegram: "#", photo: "/images/Edilson.Hoyos.jpg" },
     { name: "Randolph Chiari", position: "Member", telegram: "#", photo: "/images/Randolph.Chiari.jpg" },
     { name: "Edison Bazan", position: "Member", telegram: "#", photo: "/images/Edison.Bazan.jpg" },
@@ -23,7 +23,7 @@ export default function CommunityLeaders() {
     { name: "Edgar Jaimes", position: "Member", telegram: "#", photo: "/images/Edgar.Jaimes.jpg" },
     { name: "James Rodriguez", position: "Member", telegram: "#", photo: "/images/James.Rodriguez.jpg" },
     { name: "Abraham Morales", position: "Member", telegram: "#", photo: "/images/Abraham.Morales.jpg" },
-    { name: "Matias Ssiedemburg", position: "Member", telegram: "#", photo: "/images/matias.siedemburg.jpg" },
+    { name: "Matias Siedemburg", position: "Member", telegram: "#", photo: "/images/matias.siedemburg.jpg" },
     { name: "Liviga", position: "Member", telegram: "#", photo: "/images/liviga.jpg" },
     { name: "Black Mamba", position: "Member", telegram: "#", photo: "/images/mamba.jpg" },
     { name: "Martin Carrillo", position: "Member", telegram: "#", photo: "/images/martin.carrillo.jpg" },
