@@ -55,7 +55,7 @@ export default function Home() {
         </section>
 
         <section id="community_1" className="mb-16">
-          <h3 className="text-3xl font-bold mb-6 text-center">Arraez Group Traders Leaders</h3>
+          <h3 className="text-3xl font-bold mb-6 text-center">Leading Traders in the Arraez Group</h3>
           <CommunityLeaders />
         </section>
 
