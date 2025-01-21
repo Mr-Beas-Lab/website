@@ -60,7 +60,7 @@ export default function Home() {
         </section>
 
         <section id="community" className="mb-16 text-center">
-          <h3 className="text-3xl font-bold mb-6">Community</h3>
+          <h3 className="text-3xl font-bold mb-6">Global Social Networks</h3>
           <div className="flex justify-center space-x-8">
             <Link href="https://twitter.com/MrBeas_" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 transition-colors duration-300" aria-label="Twitter">
               <Twitter size={32} />
