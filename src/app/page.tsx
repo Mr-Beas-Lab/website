@@ -50,11 +50,12 @@ export default function Home() {
             <li>AI Agent: Model training powered by an advanced artificial intelligence agent.</li>
             <li>Seamless Access: Operate directly within Telegram without the need for additional apps.</li>
             <li>Tokenized Ecosystem: Unlock the mini app&apos;s analyzer with our community-driven $MRB MrBeas utility token.</li>
+            <li>Community-Driven: Thriving network of 400+ elite traders in the Arraez Group.</li>
           </ul>
         </section>
 
         <section id="community_1" className="mb-16">
-          <h3 className="text-3xl font-bold mb-6 text-center">Arraez Group Leaders</h3>
+          <h3 className="text-3xl font-bold mb-6 text-center">Arraez Group Traders Leaders</h3>
           <CommunityLeaders />
         </section>
 
