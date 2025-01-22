@@ -23,14 +23,14 @@ export default function CommunityLeaders() {
     { name: "Edgar Jaimes", position: "Member", telegram: "#", photo: "/images/Edgar.Jaimes.jpg" },
     { name: "James Rodriguez", position: "Member", telegram: "#", photo: "/images/James.Rodriguez.jpg" },
     { name: "Abraham Morales", position: "Member", telegram: "#", photo: "/images/Abraham.Morales.jpg" },
-    { name: "Matias Siedemburg", position: "Member", telegram: "#", photo: "/images/matias.siedemburg.jpg" },
+    { name: "Nelson Silva", position: "Member", telegram: "https://t.me/Nelson21lva", photo: "/images/nelson.jpg" },
     { name: "Liviga", position: "Member", telegram: "#", photo: "/images/liviga.jpg" },
-    { name: "Black Mamba", position: "Member", telegram: "#", photo: "/images/mamba.jpg" },
+    { name: "David Yescoiner", position: "Member", telegram: "https://t.me/Scorpion9111", photo: "/images/David.Yescoiner.jpg" },
     { name: "Martin Carrillo", position: "Member", telegram: "#", photo: "/images/martin.carrillo.jpg" },
     { name: "Time To Practice", position: "Member", telegram: "#", photo: "/images/practice.jpg" },
     { name: "Rafael Moraos", position: "Member", telegram: "#", photo: "/images/rmoraos.jpg" },
     { name: "JC Maga", position: "Member", telegram: "#", photo: "/images/jc.jpg" },
-    { name: "Josue Delcid", position: "Member", telegram: "#", photo: "/images/Josue.Delcid.jpg" },
+    { name: "LuisFer88", position: "Member", telegram: "https://t.me/luisfer88", photo: "/images/luisfer88.jpg" },
     { name: "Danza Fupiac", position: "Member", telegram: "#", photo: "/images/Danza.Fupiac.jpg" },
   ];
 

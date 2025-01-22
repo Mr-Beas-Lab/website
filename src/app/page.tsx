@@ -26,7 +26,7 @@ export default function Home() {
         <section className="mb-16 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">AI Agent and Expert Trading on Telegram</h2>
           <p className="text-2xl mb-8">Transforming trading with AI-powered analysis and Elías Arraez&apos;s proven strategies.</p>
-          <Link href="#" className="bg-green-500 dark:bg-green-600 text-white text-xl px-8 py-3 rounded-full hover:bg-green-600 dark:hover:bg-green-700 transition-colors duration-300">
+          <Link href="https://t.me/mrbeasapp_bot" className="bg-green-500 dark:bg-green-600 text-white text-xl px-8 py-3 rounded-full hover:bg-green-600 dark:hover:bg-green-700 transition-colors duration-300">
             Launch App
           </Link>
         </section>
