@@ -49,7 +49,7 @@ export default function Home() {
             <li>Tokenized Ecosystem: Unlock the mini app&apos;s analyzer with our community-driven $MRB MrBeas utility token.</li>
             <li>Community-Driven: Thriving network of 400+ elite traders in the Arraez Group.</li>
             <li>DeFi: Swap, Liquidity Pool, Staking, Farming and more . . . on the Open Network.</li>
-            <li>Community Financial Services: Remittances, Loan, International Private Banking with the Arraez Group support.</li>
+            <li>Community Financial Services: Remittances, Loan, International Private Neo-Banking with the Arraez Group support.</li>
            
             </ul>
         </section>
