@@ -1,0 +1,44 @@
+name: Build & Deploy Website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy-website:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v3
+
+      - name: 🔐 Login to Docker Hub
+        run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
+
+      - name: 🏗 Build Website Docker Image
+        run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/website:latest .
+
+      - name: 🚀 Push Website Docker Image
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/website:latest
+
+      - name: 🔄 SSH and Deploy on Server
+        env:
+          SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
+        run: |
+          sshpass -p "$SERVER_PASSWORD" ssh -o StrictHostKeyChecking=no \
+          ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} << 'EOF'
+
+            set -e
+            echo "🔐 Connected to server"
+
+            cd /home/${{ secrets.SERVER_USER }}/mrbeas || exit 1
+
+            echo "⬇️ Pulling latest website image..."
+            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/website:latest
+
+            echo "🔁 Restarting website container..."
+            docker-compose up -d website
+
+            echo "✅ Website deployed!"
+          EOF
