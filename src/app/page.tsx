@@ -48,7 +48,7 @@ export default function Home() {
             <li>Seamless Access: Operate directly within Telegram without the need for additional apps.</li>
             <li>Tokenized Ecosystem: Unlock the mini app&apos;s analyzer with our community-driven $MRB MrBeas utility token.</li>
             <li>Community-Driven: Thriving network of 400+ elite traders in the Arraez Group.</li>
-            <li>DeFi: Swap, Liquidity Pool, Staking, Farming and more on the Open Network.</li>
+            <li>DeFi: Swap, Liquidity Pool, Staking, Farming and more . . . on the Open Network.</li>
             <li>Community Financial Services: Remittances, Loan, International Private Banking with the Arraez Group support.</li>
            
             </ul>
