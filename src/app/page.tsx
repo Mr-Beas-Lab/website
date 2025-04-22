@@ -24,7 +24,7 @@ export default function Home() {
 
       <main className="flex-grow container mx-auto px-6 py-12">
         <section className="mb-16 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Global new finances super-app on Telegram</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Neo finance super-app on Telegram</h2>
           <p className="text-2xl mb-8">Transforming finance with Elías Arraez&apos;s Community.</p>
           <Link href="https://t.me/mrbeasapp_bot" className="bg-green-500 dark:bg-green-600 text-white text-xl px-8 py-3 rounded-full hover:bg-green-600 dark:hover:bg-green-700 transition-colors duration-300">
             Launch App
