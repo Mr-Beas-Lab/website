@@ -24,8 +24,8 @@ export default function Home() {
 
       <main className="flex-grow container mx-auto px-6 py-12">
         <section className="mb-16 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">AI Agent Crypto Analyzer with DeFi-DAO on Telegram</h2>
-          <p className="text-2xl mb-8">Transforming trading with AI-powered analysis and Elías Arraez&apos;s proven strategies.</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Global new finances super-app on Telegram</h2>
+          <p className="text-2xl mb-8">Transforming finance with Elías Arraez&apos;s Community.</p>
           <Link href="https://t.me/mrbeasapp_bot" className="bg-green-500 dark:bg-green-600 text-white text-xl px-8 py-3 rounded-full hover:bg-green-600 dark:hover:bg-green-700 transition-colors duration-300">
             Launch App
           </Link>
@@ -34,13 +34,10 @@ export default function Home() {
         <section id="about" className="mb-16">
           <h3 className="text-3xl font-bold mb-6 text-center">About Mr. Beas</h3>
           <p className="text-xl mb-6">
-            Mr. Beas is an innovative Telegram mini app designed to transform trading. Powered by an AI agent
-            trained with the exclusive methodology of renowned trader Elías Arraez, it provides precise analyses
-            and optimal trade points.
+            Mr. Beas is an innovative Telegram super-app designed to transform finances and investing. DeFi, DAO, Trading, AI Analizer, Financial Services etc. 
+            
           </p>
-          <p className="text-xl">
-            Arraez&apos;s impeccable record has made his techniques a trusted standard for traders of all levels.
-          </p>
+      
         </section>
 
         <section id="benefits" className="mb-16">
@@ -51,7 +48,10 @@ export default function Home() {
             <li>Seamless Access: Operate directly within Telegram without the need for additional apps.</li>
             <li>Tokenized Ecosystem: Unlock the mini app&apos;s analyzer with our community-driven $MRB MrBeas utility token.</li>
             <li>Community-Driven: Thriving network of 400+ elite traders in the Arraez Group.</li>
-          </ul>
+            <li>DeFi: Swap, Liquidity Pool, Staking, Farming and more on the Open Network.</li>
+            <li>Community Financial Services: Remittances, Loan, International Private Banking with the Arraez Group support.</li>
+           
+            </ul>
         </section>
 
         <section id="community_1" className="mb-16">
