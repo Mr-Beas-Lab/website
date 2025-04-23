@@ -34,7 +34,7 @@ export default function Home() {
         <section id="about" className="mb-16">
           <h3 className="text-3xl font-bold mb-6 text-center">About Mr. Beas</h3>
           <p className="text-xl mb-6">
-            Mr. Beas is an innovative Telegram super-app designed to transform finances and investing. DeFi, DAO, Trading, AI Analizer, Financial Services etc. 
+            Mr. Beas is an innovative Telegram super-app designed to transform finances and investing. DeFi, DAO, Trading, AI Analyzer, Financial Services etc. 
             
           </p>
       
